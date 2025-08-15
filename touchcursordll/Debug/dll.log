@@ -1,0 +1,19 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1123,5): warning MSB4211: 正要將屬性 "GetTargetPathDependsOn" 第一次設定為某個值，但是它已經在 "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (2232,5)" 使用過了。
+cl : 命令列  warning D9035: 選項 'Gm' 已被取代，在未來的發行版本中將會移除
+  dllmain.cpp
+C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\touchcursordll\dllmain.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\tclib\options.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  (編譯來源檔案 'dllmain.cpp')
+  
+C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\tclib\win32funcs.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  (編譯來源檔案 'dllmain.cpp')
+  
+C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\tclib\launch.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  (編譯來源檔案 'dllmain.cpp')
+  
+C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\tclib\modifiers.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  (編譯來源檔案 'dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\bin\Debug\dll.dll) 與 Linker 的 OutputFile 屬性值 (C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\bin\Debug\touchcursor.dll) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Link.OutputFile) 中指定的值相符。
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(dll) 與 Linker 的 OutputFile 屬性值 (touchcursor) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Link.OutputFile) 中指定的值相符。
+LINK : fatal error LNK1181: 無法開啟輸入檔 'C:\Users\David_chang\Documents\DAVID\PROJECT\touchcursorwithlayers\tclib\Debug\tclib.lib'
